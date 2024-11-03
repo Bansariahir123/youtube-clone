@@ -1,0 +1,39 @@
+/* src/pages/ProfilePage.css */
+
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.profile-box {
+    width: 100%;
+    max-width: 500px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+    margin-top: 15px;
+
+}
+
+.profile-box h2 {
+    margin-bottom: 15px;
+}
+
+.profile-box p {
+    margin: 5px 0;
+}
+
+.profile-box a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profile-box a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+
+/* ChannelPage.css */
+.channel-page-info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.channel-page h2 {
+    margin: 20px 0 10px;
+}
+
+.channel-page p {
+    margin: 5px 0;
+}
+
+/* Container for the grid of videos */
+.channel-videos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.button-actions{
+    margin-right: 16px;
+}
+
+

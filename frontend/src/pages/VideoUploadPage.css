@@ -1,0 +1,58 @@
+/* src/pages/VideoUploadPage.css */
+
+.video-upload-page {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.upload-form-box {
+    margin-top: 27px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.upload-form-box h2 {
+    margin-bottom: 20px;
+}
+
+.upload-form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.upload-form-box input,
+.upload-form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.upload-form-box textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.upload-form-box button {
+    padding: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+.upload-form-box button:hover {
+    background-color: #005bb5;
+}

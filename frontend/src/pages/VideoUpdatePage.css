@@ -1,0 +1,59 @@
+/* src/pages/VideoUpdatePage.css */
+
+.video-update-page {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20px;
+}
+
+.update-form-box {
+    margin-top: 25px;
+    
+    width: 100%;
+    max-width: 500px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.update-form-box h2 {
+    margin-bottom: 20px;
+}
+
+.update-form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.update-form-box input,
+.update-form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.update-form-box textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.update-form-box button {
+    padding: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.update-form-box button:hover {
+    background-color: #005bb5;
+}

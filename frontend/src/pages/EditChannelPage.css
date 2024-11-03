@@ -1,0 +1,63 @@
+/* src/pages/EditChannelPage.css */
+
+.edit-channel-page {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+}
+
+.edit-form-box {
+    width: 100%;
+    margin-top: 35px;
+    max-width: 500px;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.edit-form-box h2 {
+    margin-bottom: 20px;
+}
+
+.edit-form-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.edit-form-box label {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.edit-form-box input,
+.edit-form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.edit-form-box textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.edit-form-box button {
+    padding: 10px;
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-form-box button:hover {
+    background-color: #005bb5;
+}
