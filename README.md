@@ -18,3 +18,5 @@ View profile will show the user's profile and inside user's profile "Go to Chann
 Clicking on the thumbnail image of the video will redirect you to the video page, where you can view your video, see information of video, add, delete or modify comments. Update and delete video button will also appear in the video page only if the video is uploaded by you. You can like/dislike the videos.
 In the navigation bar, clicking on "Youtube clone" will redirect you to the home page. To search the video, type the title or description on search bar and press the search icon. Category filter will help to filter the videos. 
 Data of the changes will be stored in mongodb database.
+
+Demo Video:https://drive.google.com/file/d/1AUsWzhirEnhawNJ4DnQNhHyHvAxur5yq/view?usp=sharing
